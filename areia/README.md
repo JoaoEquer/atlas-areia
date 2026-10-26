@@ -12,6 +12,8 @@ In the app's settings it is called **Sand** in English and **Areia** in Portugue
 
 ![Settings, Look: the system's, Light, Dark and Sand](screenshots/settings.png)
 
+![The Areia palette](screenshots/palette.svg)
+
 ## Install
 
 From the app, open **Marketplace**, find **Areia** under Plugins and press **Install**. From a
