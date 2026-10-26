@@ -9,7 +9,7 @@
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-8a846c"></a>
   <img alt="Atlas plugin API 24" src="https://img.shields.io/badge/atlas.api-24%2B-265493">
   <img alt="Contrast WCAG AA" src="https://img.shields.io/badge/contrast-WCAG%20AA-1f7f76">
-  <img alt="Runs no code" src="https://img.shields.io/badge/runs%20code-no-b8352a">
+  <img alt="Runs no code" src="https://img.shields.io/badge/runs%20code-no-1f7f76">
 </p>
 
 <p align="center">
