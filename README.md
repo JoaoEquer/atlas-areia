@@ -20,4 +20,4 @@ atlas plugins validate areia
 
 ## License
 
-MIT, see [`areia/LICENSE`](areia/LICENSE).
+MIT, see [LICENSE](LICENSE). Each plugin folder carries its own copy.
