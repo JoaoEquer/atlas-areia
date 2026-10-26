@@ -1,0 +1,36 @@
+{
+  "label": "Sand",
+  "labels": {
+    "pt-BR": "Areia"
+  },
+  "base": "light",
+  "colors": {
+    "background": "#e9e3d3",
+    "foreground": "#1c1b17",
+    "soft": "#4b4940",
+    "muted-foreground": "#55524a",
+    "faint": "#8a846c",
+    "subtle": "#e0d9c6",
+    "raised": "#f1ecdf",
+    "muted": "#dcd4bf",
+    "hover": "#d9d1bb",
+    "selected": "#d2c9b2",
+    "border": "#cbc2aa",
+    "border-strong": "#b3a98f",
+    "primary": "#1c1b17",
+    "primary-foreground": "#f1ecdf",
+    "ring": "#6d6a5c",
+    "scrim": "#1c1b1766",
+    "working": "#265493",
+    "waiting": "#c98f23",
+    "waiting-text": "#6e4a00",
+    "waiting-foreground": "#3a2808",
+    "done": "#1f7f76",
+    "done-text": "#115a54",
+    "failed": "#b8352a",
+    "failed-text": "#8f261c",
+    "danger": "#b8352a",
+    "added": "#1f7f76",
+    "removed": "#b8352a"
+  }
+}
