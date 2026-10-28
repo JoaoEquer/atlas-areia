@@ -1,37 +1,58 @@
 # Areia
 
-A warm, paper-like light theme for [Atlas](https://github.com/marqueskaio/atlas). Sand grounds,
-ink-dark text and state colors tuned to sit on that paper: a calmer alternative to the stark white
-of the default light look, for working in daylight.
+A warm, paper-like light theme for [Atlas](https://github.com/marqueskaio/atlas): sand grounds,
+ink-dark text and state colors tuned to sit on that paper.
+
+![Atlas with Areia: a conversation with tool calls and a code diff on sand-colored paper](screenshots/chat.png)
 
 In the app's settings it is called **Sand** in English and **Areia** in Portuguese.
+
+## Before and after
+
+The same conversation in Atlas's default light look and in Areia. The layout does not move; only
+the colors change.
 
 | Atlas, light (default) | Atlas, Areia |
 |---|---|
 | ![Atlas with its default light look](screenshots/default-light.png) | ![Atlas with Areia](screenshots/chat.png) |
 
-![Settings, Look: the system's, Light, Dark and Sand](screenshots/settings.png)
+The four states keep one meaning each and stay readable on sand: working (blue), waiting for you
+(amber), done (green) and failed (red).
 
-![The Areia palette](screenshots/palette.svg)
+![A conversation waiting for approval, with a finished and a failed tool call, and another conversation still working](screenshots/states.png)
+
+## What it changes, and what it doesn't
+
+**Changes**
+
+- All 27 named colors Atlas paints with: grounds, text, lines, focus ring, actions, states, and
+  added and removed lines.
+
+**Doesn't change**
+
+- Layout, fonts, sizes or spacing.
+- Native form controls and scrollbars: the theme sits on `light`, so they keep their light variants.
+- Your files, settings or other plugins: it only adds a choice to **Look**.
 
 ## Install
 
-From the app, open **Marketplace**, find **Areia** under Plugins and press **Install**. From a
-terminal:
+1. Open **Marketplace** in Atlas, find **Areia** under Plugins and press **Install**.
+2. Turn it on under **Plugins**. The consent shows one line: it adds a theme, and nothing that runs.
+3. Choose **Sand** in **Settings > General > Look**, beside the system's, Light and Dark.
+
+![Settings, General, Look: the system's, Light, Dark and Sand, with Sand chosen](screenshots/settings.png)
+
+From a terminal, steps 1 and 2 are:
 
 ```bash
 atlas marketplace install areia
 atlas plugins enable areia
 ```
 
-A plugin arrives turned off. Turning it on shows what it declares, which here is one line: it adds
-a theme, and nothing that runs. Then choose it in **Settings > General > Look**, beside the
-system's, Light and Dark.
-
 Needs Atlas with plugin SDK version 24 (`atlas.api` 24) or later, the version that lets a plugin
 bring themes.
 
-## What it does
+## Safety
 
 It brings one file, [`themes/areia.json`](themes/areia.json): a hex color for each of the app's
 named colors, on top of the app's light look. Nothing else.
@@ -46,11 +67,12 @@ named colors, on top of the app's light look. Nothing else.
 If you turn the plugin off, the app goes back to the system's look and keeps your choice for when
 the plugin is on again.
 
-## Colors
+## Palette
+
+![The Areia palette: background, sidebar, dialogs, chips, selected, text, and the four states](screenshots/palette.png)
 
 Atlas paints every screen with 27 named colors and no others; this theme sets each of them, so
-nothing falls back to the default light look. The theme sits on `light`, which keeps native form
-controls and scrollbars in their light variants.
+nothing falls back to the default light look.
 
 **Grounds**
 
@@ -126,11 +148,11 @@ and is 2.9:1 on `background` on purpose. `ring`, the keyboard's place, is 4.2:1.
 
 ## Design
 
-- **Warm neutrals.** Every neutral leans yellow-brown (OKLCH hue between 89 and 97 degrees, chroma 0.01 to 0.03) instead of
-  gray: `background` is `#e9e3d3`, the sidebar a step darker, and dialogs and fields a
-  step lighter (`raised`), so depth reads as paper laid over paper.
-- **Ink, not black.** Text is `#1c1b17`, a very dark warm brown, which sits softer on sand
-  than pure black.
+- **Warm neutrals.** Every neutral leans yellow-brown (OKLCH hue between 89 and 97 degrees, chroma
+  0.01 to 0.03) instead of gray: `background` is `#e9e3d3`, the sidebar a step darker, and dialogs
+  and fields a step lighter (`raised`), so depth reads as paper laid over paper.
+- **Ink, not black.** Text is `#1c1b17`, a very dark warm brown, which sits softer on sand than
+  pure black.
 - **States stay legible.** Blue, amber, green and red are the app's four states with one meaning
   each. Their `-text` variants are darkened until they read as words on sand.
 
@@ -142,6 +164,10 @@ atlas plugins validate areia     # loads it as Atlas does and says what is wrong
 
 The folder name must equal the plugin's `name`, as Atlas requires. To try a change, copy the folder
 into your home's `plugins/`, run `atlas plugins enable areia`, and pick the theme in Settings.
+
+## Changelog
+
+See [CHANGELOG.md](https://github.com/JoaoEquer/atlas-areia/blob/main/CHANGELOG.md).
 
 ## License
 

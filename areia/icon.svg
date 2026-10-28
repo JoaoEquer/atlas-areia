@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Areia">
+  <title>Areia</title>
+  <defs>
+    <clipPath id="tile">
+      <rect width="256" height="256" rx="56"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect width="256" height="256" fill="#e9e3d3"/>
+    <circle cx="178" cy="84" r="26" fill="#1f7f76"/>
+    <path d="M0 160 C48 128 104 124 152 146 C192 164 226 158 256 138 V256 H0 Z" fill="#d2c9b2"/>
+    <path d="M0 194 C58 168 120 164 176 184 C210 196 236 194 256 186 V256 H0 Z" fill="#b3a98f"/>
+    <path d="M0 222 C72 202 152 200 256 226 V256 H0 Z" fill="#1c1b17"/>
+  </g>
+  <rect x="2" y="2" width="252" height="252" rx="54" fill="none" stroke="#cbc2aa" stroke-width="4"/>
+</svg>

@@ -1,3 +1,7 @@
+<p align="center">
+  <img alt="Areia icon: sand dunes under a teal sun" src="areia/icon.png" width="96">
+</p>
+
 <h1 align="center">Areia</h1>
 
 <p align="center">
@@ -13,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img alt="Atlas with the Areia theme: a conversation with a code block on sand-colored paper" src="areia/screenshots/chat.png" width="880">
+  <img alt="Atlas with the Areia theme: a conversation with tool calls and a code diff on sand-colored paper" src="areia/screenshots/chat.png" width="880">
 </p>
 
 ## Why
@@ -25,6 +29,13 @@ like paper under a lamp, with text kept dark enough to stay sharp.
 | Default light | Areia |
 |---|---|
 | <img alt="Atlas with its default light look" src="areia/screenshots/default-light.png"> | <img alt="Atlas with Areia" src="areia/screenshots/chat.png"> |
+
+The four states keep one meaning each and stay readable on sand: working, waiting for you, done
+and failed.
+
+<p align="center">
+  <img alt="A conversation waiting for approval, with a finished and a failed tool call, and another conversation still working" src="areia/screenshots/states.png" width="880">
+</p>
 
 ## Install
 
@@ -42,7 +53,7 @@ version 24 or later, the version that lets a plugin bring themes.
 
 ## The palette
 
-<img alt="Areia palette: background, sidebar, dialogs, chips, selected, text, and the four states" src="areia/screenshots/palette.svg">
+<img alt="Areia palette: background, sidebar, dialogs, chips, selected, text, and the four states" src="areia/screenshots/palette.png">
 
 Atlas paints every screen with 27 named colors and no others. Areia sets all 27, so nothing falls
 back to the default look. Every text color is at least **4.5:1** (WCAG AA) on the grounds it is
@@ -76,9 +87,11 @@ them off again when you pick another look.
 
 | Path | What it holds |
 |---|---|
-| [`areia/`](areia) | The plugin: manifest, theme, screenshots, its own README and license |
+| [`areia/`](areia) | The plugin: manifest, theme, icon, screenshots, its own README and license |
 | [`areia/themes/areia.json`](areia/themes/areia.json) | The colors |
-| [`areia/README.md`](areia/README.md) | Reference: every color, the contrast table, design notes |
+| [`areia/README.md`](areia/README.md) | The plugin's page in Atlas: every color, the contrast table, design notes |
+| [`areia/icon.svg`](areia/icon.svg) | Source of the Marketplace icon, `icon.png` (256x256) |
+| [`CHANGELOG.md`](CHANGELOG.md) | What changed in each version |
 
 Check it with Atlas installed:
 
