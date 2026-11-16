@@ -1,7 +1,8 @@
 # Areia
 
 A warm, paper-like light theme for [Atlas](https://github.com/marqueskaio/atlas): sand grounds,
-ink-dark text and state colors tuned to sit on that paper.
+ink-dark text and state colors tuned to sit on that paper. Two dark companions come with it:
+**Coffee**, its warm night twin, and **Graphite**, a cool near-black with cyan accents.
 
 ![Atlas with Areia: a conversation with tool calls and a code diff on sand-colored paper](screenshots/chat.png)
 
@@ -38,7 +39,8 @@ The four states keep one meaning each and stay readable on sand: working (blue),
 
 1. Open **Marketplace** in Atlas, find **Areia** under Plugins and press **Install**.
 2. Turn it on under **Plugins**. The consent shows one line: it adds a theme, and nothing that runs.
-3. Choose **Sand** in **Settings > General > Look**, beside the system's, Light and Dark.
+3. Choose **Sand**, **Coffee** or **Graphite** in **Settings > General > Look**, beside the
+   system's, Light and Dark.
 
 ![Settings, General, Look: the system's, Light, Dark and Sand, with Sand chosen](screenshots/settings.png)
 
@@ -54,8 +56,9 @@ bring themes.
 
 ## Safety
 
-It brings one file, [`themes/areia.json`](themes/areia.json): a hex color for each of the app's
-named colors, on top of the app's light look. Nothing else.
+It brings three files, [`themes/areia.json`](themes/areia.json),
+[`themes/cafe.json`](themes/cafe.json) and [`themes/grafite.json`](themes/grafite.json): each a hex
+color for every one of the app's named colors, on top of the app's light or dark look. Nothing else.
 
 - **It runs no code.** No Python, no screen, no hooks, no tools, no scripts.
 - **It reaches no network** and reads no secret.
@@ -145,6 +148,44 @@ below were computed from the hex values with the WCAG relative-luminance formula
 `faint` only decorates (a chevron, a dot at rest, a word that cannot be used, as Atlas defines it)
 and is 2.9:1 on `background` on purpose. `ring`, the keyboard's place, is 4.2:1. `border` and
 `border-strong` are edges, not text, at 1.4:1 and 1.8:1: quiet lines on paper.
+
+## Dark companions
+
+The plugin also brings two dark themes, each setting all 27 named colors on top of `dark`, so
+native controls and scrollbars take their dark variants. They show as **Coffee** and **Graphite**
+in English, **Café** and **Grafite** in Portuguese.
+
+- **Coffee** ([`themes/cafe.json`](themes/cafe.json)): Areia's night twin. Espresso grounds
+  (`#1a1714`), cream text (`#ece4d4`), the same warm hue family, so switching from Areia at dusk
+  keeps the feel.
+- **Graphite** ([`themes/grafite.json`](themes/grafite.json)): a cool near-black (`#0c0e12`) with
+  electric cyan (`#5ec8f2`) for working and the focus ring, mint for done and coral red for failed.
+
+| Atlas, dark (default) | Coffee | Graphite |
+|---|---|---|
+| ![Atlas with its default dark look](screenshots/default-dark.png) | ![Atlas with Coffee](screenshots/cafe-chat.png) | ![Atlas with Graphite](screenshots/grafite-chat.png) |
+
+The same four states, on espresso and on graphite:
+
+![Coffee: a conversation waiting for approval, a finished and a failed tool call, another conversation working](screenshots/cafe-states.png)
+
+![Graphite: a conversation waiting for approval, a finished and a failed tool call, another conversation working](screenshots/grafite-states.png)
+
+Both are picked in **Settings > General > Look**, beside Sand:
+
+![Settings, General, Look: the system's, Light, Dark, Sand, Coffee and Graphite, with Coffee chosen](screenshots/cafe-settings.png)
+
+Every text color is at least 4.5:1 on the four text grounds (lowest ratio shown):
+
+| Text color | Coffee | Graphite |
+|---|---|---|
+| `foreground` | 11.9 | 13.4 |
+| `soft` | 8.2 | 8.7 |
+| `muted-foreground` | 5.7 | 5.3 |
+| `working` | 6.5 | 8.6 |
+| `waiting-text` | 9.1 | 11.0 |
+| `done-text` | 8.4 | 11.0 |
+| `failed-text` | 7.0 | 8.0 |
 
 ## Design
 

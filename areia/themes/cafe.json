@@ -1,0 +1,36 @@
+{
+  "label": "Coffee",
+  "labels": {
+    "pt-BR": "Café"
+  },
+  "base": "dark",
+  "colors": {
+    "background": "#1a1714",
+    "foreground": "#ece4d4",
+    "soft": "#c9bfac",
+    "muted-foreground": "#a89f8d",
+    "faint": "#6f675a",
+    "subtle": "#211d19",
+    "raised": "#24201b",
+    "muted": "#2b2620",
+    "hover": "#302a23",
+    "selected": "#3a3229",
+    "border": "#352f27",
+    "border-strong": "#4a4237",
+    "primary": "#ece4d4",
+    "primary-foreground": "#1a1714",
+    "ring": "#a89f8d",
+    "scrim": "#00000099",
+    "working": "#7aaee8",
+    "waiting": "#e0a73c",
+    "waiting-text": "#f0c36e",
+    "waiting-foreground": "#2a1d05",
+    "done": "#4fb3a6",
+    "done-text": "#7fd1c5",
+    "failed": "#e26a5c",
+    "failed-text": "#f29a8f",
+    "danger": "#e26a5c",
+    "added": "#4fb3a6",
+    "removed": "#e26a5c"
+  }
+}
