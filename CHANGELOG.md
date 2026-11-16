@@ -9,7 +9,7 @@ All notable changes to Areia are listed here. The format follows
 ### Removed
 
 - Coffee and Graphite, the two dark themes 1.2.0 brought, moved out to plugins of their own, each
-  with its own Marketplace card: [CafÃ©](https://github.com/JoaoEquer/atlas-cafe) and
+  with its own Marketplace card: [Café](https://github.com/JoaoEquer/atlas-cafe) and
   [Grafite](https://github.com/JoaoEquer/atlas-grafite). Install the one you used; until then the
   app shows the system's look and keeps your choice.
 
