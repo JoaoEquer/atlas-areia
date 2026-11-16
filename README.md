@@ -37,16 +37,6 @@ and failed.
   <img alt="A conversation waiting for approval, with a finished and a failed tool call, and another conversation still working" src="areia/screenshots/states.png" width="880">
 </p>
 
-## Dark companions
-
-Since 1.2.0 the plugin also brings two dark themes, on Atlas's dark look: **Coffee** (Café),
-Areia's warm night twin in espresso and cream, and **Graphite** (Grafite), a cool near-black with
-electric cyan, mint and coral. Every text color of both is at least 4.5:1.
-
-| Coffee | Graphite |
-|---|---|
-| <img alt="Atlas with Coffee" src="areia/screenshots/cafe-chat.png"> | <img alt="Atlas with Graphite" src="areia/screenshots/grafite-chat.png"> |
-
 ## Install
 
 1. Open **Marketplace** in Atlas, find **Areia** under Plugins and press **Install**.
